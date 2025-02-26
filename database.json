@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Evelyn Patel",
+      "email": "evelyn.patel@example.com",
+      "cohort": "Bootcamp 2025"
+    },
+    {
+      "id": 2,
+      "name": "Liam Chen",
+      "email": "liam.chen@example.com",
+      "cohort": "Bootcamp 2025"
+    },
+    {
+      "id": 3,
+      "name": "Ava Kim",
+      "email": "ava.kim@example.com",
+      "cohort": "Bootcamp 2024"
+    },
+    {
+      "id": 4,
+      "name": "Noah Lee",
+      "email": "noah.lee@example.com",
+      "cohort": "Bootcamp 2024"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Closures",
+      "body": "A closure is a function that has access to its outer scope...",
+      "date": "2025-02-20",
+      "userId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "title": "My Experience with React Hooks",
+      "body": "I recently started using React Hooks in my projects...",
+      "date": "2025-02-22",
+      "userId": 2,
+      "topicId": 2
+    },
+    {
+      "id": 3,
+      "title": "Solving Common CSS Issues",
+      "body": "Here are some common CSS issues and how to solve them...",
+      "date": "2025-02-25",
+      "userId": 3,
+      "topicId": 3
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "JavaScript Fundamentals"
+    },
+    {
+      "id": 2,
+      "name": "React Development"
+    },
+    {
+      "id": 3,
+      "name": "CSS Best Practices"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "userId": 4
+    }
+  ]
+}
