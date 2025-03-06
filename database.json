@@ -35,14 +35,6 @@
       "topicId": 1
     },
     {
-      "id": 2,
-      "title": "React Components: A Deep Dive",
-      "body": "React components are the building blocks of any React application. They allow developers to break down the UI into reusable pieces, making the code more modular and maintainable. This post explores the different types of components, such as functional and class components, and how to effectively use props and state within them.",
-      "date": "2025-02-22",
-      "userId": 2,
-      "topicId": 2
-    },
-    {
       "id": 3,
       "title": "Solving Common CSS Issues",
       "body": "CSS can be tricky to work with, especially when it comes to layout and positioning. One common issue is vertical centering, which can be achieved using flexbox or CSS Grid. Another issue is dealing with overflow content, which can be solved using the overflow property or by using a library like Masonry.",
@@ -57,14 +49,6 @@
       "date": "2025-02-27",
       "userId": 1,
       "topicId": 1
-    },
-    {
-      "id": 5,
-      "title": "State Management in React",
-      "body": "State management is a critical aspect of building scalable React applications. This post discusses various state management solutions, including React's built-in useState and useReducer hooks, as well as third-party libraries like Redux and Context API. Learn how to choose the right tool for your application's needs.",
-      "date": "2025-02-28",
-      "userId": 2,
-      "topicId": 2
     },
     {
       "id": 6,
@@ -83,14 +67,6 @@
       "topicId": 1
     },
     {
-      "id": 8,
-      "title": "React Hooks: Simplifying State and Side Effects",
-      "body": "React Hooks revolutionized how developers manage state and side effects in functional components. This post dives into the most commonly used hooks, such as useState, useEffect, and useContext, and provides practical examples of how to leverage them in real-world applications.",
-      "date": "2025-03-03",
-      "userId": 2,
-      "topicId": 2
-    },
-    {
       "id": 9,
       "title": "CSS Flexbox Tutorial",
       "body": "This post provides a step-by-step tutorial on using CSS Flexbox. Flexbox provides a simple and powerful way to create flexible layouts. This tutorial covers the basics of using flexbox, including flex containers, flex items, and flex properties.",
@@ -105,14 +81,6 @@
       "date": "2025-03-05",
       "userId": 1,
       "topicId": 1
-    },
-    {
-      "id": 11,
-      "title": "Building Scalable React Applications",
-      "body": "Scalability is a key consideration when building React applications. This post explores best practices for structuring your codebase, optimizing performance, and managing dependencies. Learn how to build applications that can grow with your user base without sacrificing maintainability.",
-      "date": "2025-03-06",
-      "userId": 2,
-      "topicId": 2
     },
     {
       "id": 12,
@@ -144,24 +112,30 @@
       "userId": 4
     },
     {
-      "postId": 6,
-      "userId": 2,
-      "id": 9
-    },
-    {
-      "postId": 9,
+      "postId": 4,
       "userId": 2,
       "id": 10
     },
     {
-      "postId": 3,
-      "userId": 2,
-      "id": 11
-    },
-    {
       "postId": 12,
       "userId": 2,
-      "id": 12
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 3,
+      "userId": 2,
+      "body": "Great post! Thanks for sharing.",
+      "date": "2025-03-01"
+    },
+    {
+      "id": 2,
+      "postId": 3,
+      "userId": 1,
+      "body": "I have a question about closures.",
+      "date": "2025-03-02"
     }
   ]
 }
